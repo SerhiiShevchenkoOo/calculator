@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<title>calculator</title>
+</head>
+
+<body>
+
+	<div class="monitor">
+		<button class="info-button">info</button>
+		<div class="info">привет)
+			<ul>
+				<li>1. 8 похожа на 0(шрифт такой, но мне понравился)</li>
+				<li>2. нельзя поставить два знака подряд</li>
+				<li>3. корень работает с обеих сторон</li>
+				<li>4. добавляются 0 после запитой но не больше фиксированых</li>
+				<li>5. точно функционал не проверял, к сожалению не хватает времени</li>
+				<li>6. еще раз кликни по кнопке</li>
+			</ul>
+		</div>
+		<div class="screen">
+			<div id='active' class='off'></div>
+
+			<div class="scanline"></div>
+			<div class="terminal"></div>
+
+		</div>
+		<div class="calculator-grid">
+			<div class="output">
+				<div data-previous-operand class="previous-operand"></div>
+				<div data-current-operand class="current-operand"></div>
+			</div>
+			<div class="calculator-grid__wrapper">
+				<div class="nav">
+					<div> <button id='power' class="off">on</button></div>
+
+					<div>
+
+					</div>
+				</div>
+				<div class="math">
+					<button data-all-clear class="span-two">AC</button>
+					<button data-delete>DEL</button>
+					<button data-operation>÷</button>
+					<button data-operation>*</button>
+					<button data-number>1</button>
+					<button data-number>2</button>
+					<button data-number>3</button>
+					<button data-operation>+</button>
+					<button data-number>4</button>
+					<button data-number>5</button>
+					<button data-number>6</button>
+					<button data-operation>-</button>
+					<button data-number>7</button>
+					<button data-number>8</button>
+					<button data-number>9</button>
+					<button data-operation id="sqrt">sqrt</button>
+					<button data-number>0</button>
+					<button data-number>.</button>
+					<button data-operation>pow</button>
+					<button data-equals class="span-two">=</button>
+				</div>
+			</div>
+
+
+		</div>
+
+	</div>
+	<p id="text" class="text">"Welcome to ECMA industries(TM) terminal,<br>
+
+		> SET TERMINAL/BOOT <br>
+		Loading........................ <br>
+		Please wait........ <br>
+		.......... <br>
+		... <br>
+		. <br>
+		OK. <br>
+
+		"> SET TERMINAL/LOGON", <br>
+		"USER AUTHENTICATION CHECK"
+		]);</p>
+	<script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
